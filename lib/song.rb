@@ -59,6 +59,10 @@ class Song
     song.artist_name = edited_filename[0]
     song.save
   end 
+  
+  def self.destroy_all
+    self.all.clear
+  end 
 end
 
 
