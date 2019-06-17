@@ -51,6 +51,10 @@ class Song
     song.artist_name = edited_filename[0]
     song
   end 
+  
+  def self.create_from_filename(filename)
+    
+  end 
 end
 
 
