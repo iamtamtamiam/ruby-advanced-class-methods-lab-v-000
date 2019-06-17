@@ -32,7 +32,6 @@ class Song
   end
   
   def self.find_by_name(name)
-    song = self.new
-    song
+    self.all.detect 
   end 
 end
