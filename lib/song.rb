@@ -45,8 +45,8 @@ class Song
   end 
 
   def self.new_from_filename(filename)
-    binding.pry 
     filename.chomp(".mp3")
+    filename.
   end 
 end
 
